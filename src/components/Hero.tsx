@@ -20,9 +20,10 @@ const Hero = () => {
 
             ... L'innovation 
           </h1>
-          <p className="text-lg mb-6 text-gray-100">
-            Transformez la gestion de votre entreprise avec nos solutions de gestion digitalisées
-          </p>
+          <p className="text-base sm:text-sm md:text-lg lg:text-xl mb-6 text-gray-100">
+  Transformez la gestion de votre entreprise avec nos solutions de gestion digitalisées
+</p>
+
           <div className="w-full flex justify-center items-center gap-4 mt-6">
 
   <a
