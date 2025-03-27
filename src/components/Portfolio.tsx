@@ -3,17 +3,17 @@ import React from 'react';
 const Portfolio = () => {
   const projects = [
     {
-      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80",
+      <img src="/gestion.jpg" alt="Ma vraie image" />
       title: "Système de File d'Attente - Banque XYZ",
       description: "Installation d'un système complet de gestion des files d'attente"
     },
     {
-      image: "https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&q=80",
+      <img src="/affichage.jpg" alt="Ma vraie image" />
       title: "Affichage Dynamique - Centre Commercial",
       description: "Déploiement d'écrans d'information dans un centre commercial"
     },
     {
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80",
+      <img src="/borne.jpg" alt="Ma vraie image" />
       title: "Borne Interactive - Administration",
       description: "Installation de bornes interactives pour un service public"
     }
