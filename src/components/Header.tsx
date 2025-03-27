@@ -10,7 +10,7 @@ const Header = () => {
     { label: 'Nos Offres', href: '#services' },
     { label: 'Nos Réalisations', href: '#portfolio' },
     { label: 'Nos Partenaires', href: '#partners' },
-    { label: 'Notre Équipe', href: '#team' },
+    { label: 'Nos Collaborations', href: '#team' },
     { label: 'Contact & Devis', href: '#contact' },
   ];
 
