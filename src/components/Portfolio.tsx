@@ -1,21 +1,24 @@
 import React from 'react';
+import affichageImg from '../assets/affichage.jpg';
+import borneImg from '../assets/borne.jpg';
+import gestionImg from '../assets/gestion.jpg';
 
 const Portfolio = () => {
   const projects = [
     {
-      <img src="/gestion.jpg" alt="Ma vraie image" />
-      title: "Système de File d'Attente - Banque XYZ",
-      description: "Installation d'un système complet de gestion des files d'attente"
+      image: gestionImg,
+      title: "Système de File d'Attente - Banque",
+      description: "Installation d'un système complet de gestion des files d'attente",
     },
     {
-      <img src="/affichage.jpg" alt="Ma vraie image" />
+      image: affichageImg,
       title: "Affichage Dynamique - Centre Commercial",
-      description: "Déploiement d'écrans d'information dans un centre commercial"
+      description: "Déploiement d'écrans d'information dans un centre commercial",
     },
     {
-      <img src="/borne.jpg" alt="Ma vraie image" />
+      image: borneImg,
       title: "Borne Interactive - Administration",
-      description: "Installation de bornes interactives pour un service public"
+      description: "Installation de bornes interactives pour un service public",
     }
   ];
 
