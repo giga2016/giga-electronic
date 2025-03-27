@@ -40,11 +40,21 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="mt-8 text-center max-w-2xl mx-auto">
-          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-            GIGA ELECTRONIC SARL est votre partenaire de confiance dans le domaine des Technologies de l'Information et de la Communication. Notre mission est d'apporter des solutions technologiques innovantes et adaptées aux besoins de votre entreprise, en garantissant qualité, performance et satisfaction client.
-          </p>
-        </div>
+       <div className="mt-8 text-center max-w-2xl mx-auto">
+  <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed mb-4">
+    <strong>GIGA ELECTRONIC SARL</strong> est votre partenaire de confiance dans le domaine des Technologies de l'Information et de la Communication.  
+    Notre mission est d'apporter des solutions technologiques innovantes et adaptées aux besoins de votre entreprise, en garantissant qualité, performance et satisfaction client.
+  </p>
+
+  <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+    <strong>GIGA ELECTRONIC</strong> capitalise une solide expérience dans les TIC et une expertise avérée  
+    pour la mise en place et l'entretien des systèmes d’affichage dynamique et de gestion  
+    de file d’attente. Notre objectif est de mettre à la portée des entreprises les moyens de  
+    leurs ambitions, par des services d'appoints et la mise à leur disposition de technologies  
+    abordables et de haute qualité.
+  </p>
+</div>
+
       </div>
     </section>
   );
