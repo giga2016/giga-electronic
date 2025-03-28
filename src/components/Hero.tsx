@@ -17,11 +17,11 @@ const Hero: React.FC = () => {
 
       {/* Section Boutons */}
       <section className="flex justify-center py-4">
-        <div className="flex items-center gap-3 bg-white bg-opacity-70 p-2 sm:p-3 rounded-xl shadow-md">
+        <div className="flex items-center gap-3 bg-white bg-opacity-50 p-2 sm:p-3 rounded-xl shadow-md">
           <a
             href="#contact"
-            className="text-red-600 px-3 py-1 sm:px-4 sm:py-2 
-                       rounded-lg font-medium hover:bg-red-600 hover:text-white 
+            className="bg-red-600 text-white px-3 py-1 sm:px-4 sm:py-2 
+                       rounded-lg font-medium hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-500 
                        transition-colors duration-200 flex items-center gap-2 text-xs sm:text-sm"
           >
             Demandez un devis <ChevronRight size={14} />
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           <a
             href="#services"
             className="border border-red-600 text-red-600 px-3 py-1 sm:px-4 sm:py-2 
-                       rounded-lg font-medium hover:bg-red-600 hover:text-white 
+                       rounded-lg font-medium hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-500 
                        transition-colors duration-200 text-xs sm:text-sm"
           >
             Nos solutions
