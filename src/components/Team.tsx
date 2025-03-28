@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, Landmark, Guitar as Hospital, Ban as Bank } from 'lucide-react';
+import { Building2, LandPlot, BadgeCheck, Ban as Bank, Building, GraduationCap, Landmark, HeartPulse, Scale, ShieldCheck } from 'lucide-react';
 
 const Team = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -8,22 +8,22 @@ const Team = () => {
     {
       name: "DGID",
       description: "Direction Générale des Impôts et Domaines",
-      icon: <Landmark size={32} />
+      icon: <Scale size={32} />
     },
     {
       name: "Douanes Sénégalaises",
       description: "Administration des Douanes",
-      icon: <Building2 size={32} />
+      icon: <ShieldCheck size={32} />
     },
     {
       name: "Assemblée Nationale",
       description: "Institution Parlementaire",
-      icon: <Building2 size={32} />
+      icon: <Landmark size={32} />
     },
     {
       name: "Hôpital Militaire de Ouakam",
       description: "Centre Hospitalier Militaire",
-      icon: <Hospital size={32} />
+      icon: <HeartPulse size={32} />
     },
     {
       name: "BICIS",
@@ -38,7 +38,7 @@ const Team = () => {
     {
       name: "Port Autonome de Dakar",
       description: "Infrastructure Portuaire",
-      icon: <Building2 size={32} />
+      icon: <LandPlot size={32} />
     },
     {
       name: "CBAO",
@@ -50,20 +50,20 @@ const Team = () => {
       description: "Banque Panafricaine",
       icon: <Bank size={32} />
     },
-     {
+    {
       name: "BAT",
       description: "Banque Atlantique",
       icon: <Bank size={32} />
     },
-     {
+    {
       name: "SUNU BIS",
       description: "Banque Assurance",
-      icon: <Bank size={32} />
+      icon: <BadgeCheck size={32} />
     },
     {
       name: "Hôpital Principal de Dakar",
       description: "Centre Hospitalier",
-      icon: <Hospital size={32} />
+      icon: <HeartPulse size={32} />
     },
     {
       name: "Direction du Commerce",
@@ -73,7 +73,7 @@ const Team = () => {
     {
       name: "IPRES",
       description: "Institution de Prévoyance Retraite du Sénégal",
-      icon: <Landmark size={32} />
+      icon: <GraduationCap size={32} />
     }
   ];
 
@@ -139,4 +139,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Team

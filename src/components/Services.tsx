@@ -1,30 +1,39 @@
 import React from 'react';
-import { MonitorSmartphone, Users, Cpu, Radio, Phone } from 'lucide-react';
+import { 
+  Timer, 
+  MonitorPlay, 
+  Tablet, 
+  PanelTopOpen, 
+  PhoneCall,
+  BadgeCheck,
+  Network,
+  Headphones
+} from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
-      icon: <MonitorSmartphone size={24} />,
+      icon: <Timer size={24} />,
       title: "Gestion de file d'attente",
       description: "Solutions intelligentes pour optimiser l'accueil de vos clients"
     },
     {
-      icon: <Radio size={24} />,
+      icon: <MonitorPlay size={24} />,
       title: "Affichage dynamique",
       description: "Écrans d'information et de communication pour votre entreprise"
     },
     {
-      icon: <Cpu size={24} />,
+      icon: <Tablet size={24} />,
       title: "Totems & bornes interactives",
       description: "Solutions interactives pour améliorer l'expérience client"
     },
     {
-      icon: <Users size={24} />,
+      icon: <PanelTopOpen size={24} />,
       title: "Panneaux LED & signalétiques",
       description: "Affichage haute visibilité pour votre communication"
     },
     {
-      icon: <Phone size={24} />,
+      icon: <PhoneCall size={24} />,
       title: "Système de pointage & téléphonie",
       description: "Solutions complètes de gestion du temps et de communication"
     }
@@ -63,4 +72,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Services
