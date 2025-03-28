@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
-import banniere from '../assets/banniere.png';
+import banniere from '../assets/banniere.jpg';
 
 const Hero: React.FC = () => {
   return (
