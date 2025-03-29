@@ -4,10 +4,7 @@ import {
   MonitorPlay, 
   Tablet, 
   PanelTopOpen, 
-  PhoneCall,
-  BadgeCheck,
-  Network,
-  Headphones
+  PhoneCall
 } from 'lucide-react';
 
 const Services = () => {
@@ -40,9 +37,9 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-12 bg-white dark:bg-gray-900" id="services">
+    <section className="py-6 -mt-6 bg-white dark:bg-gray-900" id="services">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <h2 className="text-2xl font-bold mb-2 dark:text-white">NOS SOLUTIONS</h2>
           <div className="w-16 h-1 bg-red-600 mx-auto"></div>
         </div>
@@ -72,4 +69,4 @@ const Services = () => {
   );
 };
 
-export default Services
+export default Services;
